@@ -1,0 +1,180 @@
+body{
+    background-color: #F2F2F2;
+    margin: 0%;
+    font-family: "Instrument Sans", sans-serif;
+    overflow-x: hidden;
+}
+#topo{
+}
+main{
+    background-image: url(fundo02.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -5%;
+    height: 90vh;
+}
+main h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 800;
+    color: #1E1E1E;
+}
+#main{
+    margin-top: 13%;
+    height: 45vh;
+    width: 100%;
+}
+#projects-container{
+    display: flex;
+    justify-content: space-around;
+}
+#projects{
+    width: 30%;
+    height: 20vh;
+    display: flex;
+}
+#project-img{
+    height: 20vh;
+    width: 40%;
+    background-color: #D9D9D9;
+}
+#project-name{
+    height: 20vh;
+    width: 55%;
+    margin-left: 5%;
+}
+#project-name h1{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 200%;
+    font-weight: 800;
+    color: #1E1E1E;
+}
+footer{
+    
+    margin-top: 10%;
+    height: 75vh;
+    width: 100%;
+    background-color: #70876E;
+}
+#footer-nav{
+    width: 100%;
+    height: 22vh;
+}
+#footer-tytle{
+    padding-top: 2.5%;
+    color: #1E1E1E;
+    font-weight: 800;
+    font-size: 300%;
+    text-align: center;
+}
+#footer-main{
+    width: 100%;
+    height: 40vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+#footer-projects{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 17%;
+}
+#footer-projects a{
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+      height: 23vh;
+    width: 70%;
+    top: 50%;
+    margin-left: 5%;
+    color: #70876E;
+    justify-content: center;
+}
+#suma{
+    z-index: -10000000000000000000000000;
+}
+#footer-end{
+    display: flex;
+    height: 5vh;
+    justify-content: space-around;
+}
+#footer-end-info{
+    font-size: 150%;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+#footer-end-info a{
+    text-decoration: none;
+    font-size: 120%;
+    padding-top: 100%;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+footer svg{
+    fill: #1E1E1E;
+    width: 13%;
+    margin-left: 12%;
+}
+
+@media only screen and (max-width: 600px) {
+    #topo{
+        background-image: url(fundo02\ celular.png);
+        background-repeat: no-repeat;
+    }
+    main{
+        height: 60vh;
+    }
+    main h1{
+        font-size: 100%;
+    }
+    #image{
+        width: 30%;
+    }
+    #project-img{
+        height: 10vh;
+        width: 55%;
+    }
+    #project-name{
+        height: 20vh;
+        width: 55%;
+        margin-left: 5%;
+    }
+    #project-name h1{
+        font-size: 100%;
+    }
+    
+    #footer-projects{
+        height: 30vh;
+        width: 25%;
+    }
+    #footer-projects a{
+          height: 12vh;
+        width: 200%;
+        top: 50%;
+        margin-left: 5%;
+    }
+    #footer-end-info a{
+        font-size: 70%;
+        padding-top: 100%;
+    }
+    #footer-end-info h1{
+        font-size: 150%;
+        padding-top: 35%;
+    }
+    footer svg{
+        fill: #1E1E1E;
+        width: 26%;
+        margin-left: 0%;
+    }
+    footer h2{
+        font-size: 60%;
+    }
+}
