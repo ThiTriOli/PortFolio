@@ -46,6 +46,10 @@ main h1{
     width: 55%;
     margin-left: 5%;
 }
+#project-name a{
+    text-decoration:none;
+    color:#1e1e1e;
+} 
 #project-name h1{
     text-align: center;
     margin-top: 20%;
