@@ -44,6 +44,8 @@ main h1{
 #project-name{
     height: 20vh;
     width: 55%;
+    text-decoration:none;
+    color:#1e1e1e;
     margin-left: 5%;
 }
 #project-name h1 a{
