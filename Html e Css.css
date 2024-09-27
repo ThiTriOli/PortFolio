@@ -46,7 +46,7 @@ main h1{
     width: 55%;
     margin-left: 5%;
 }
-#projects a{
+#project-name h1 a{
     text-decoration:none;
     color:#1e1e1e;
 } 
