@@ -5,6 +5,8 @@ body{
     overflow-x: hidden;
 }
 #topo{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main{
     background-image: url(fundo02.png);
@@ -42,8 +44,14 @@ main h1{
 #project-name{
     height: 20vh;
     width: 55%;
+    text-decoration:none;
+    color:#1e1e1e;
     margin-left: 5%;
 }
+#project-name h1 a{
+    text-decoration:none;
+    color:#1e1e1e;
+} 
 #project-name h1{
     text-align: center;
     margin-top: 20%;
@@ -52,7 +60,6 @@ main h1{
     color: #1E1E1E;
 }
 footer{
-    
     margin-top: 10%;
     height: 75vh;
     width: 100%;
@@ -120,10 +127,9 @@ footer{
 }
 footer svg{
     fill: #1E1E1E;
-    width: 13%;
+    width: 23%;
     margin-left: 12%;
 }
-
 @media only screen and (max-width: 600px) {
     #topo{
         background-image: url(fundo02\ celular.png);
