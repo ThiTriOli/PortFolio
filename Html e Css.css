@@ -41,6 +41,10 @@ main h1{
     width: 40%;
     background-color: #D9D9D9;
 }
+.Ogani{
+       background-image: url(../Imagens/Ogani.png);
+    background-color:white;
+}
 #project-name{
     height: 20vh;
     width: 55%;
