@@ -9,7 +9,7 @@ body{
     background-size: cover;
 }
 main{
-    background-image: url(/Imagens/fundo02.png);
+    background-image: url(fundo02.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -5%;
@@ -42,7 +42,7 @@ main h1{
     background-color: #D9D9D9;
 }
 .Ogani{
-       background-image: url(../Imagens/Ogani.png);
+       background-image: url(Ogani.png);
     background-color:white;
     background-size: contain;
     background-color: white;
