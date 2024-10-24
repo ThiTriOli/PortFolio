@@ -6,7 +6,7 @@ body{
 }
 #topo{
     
-    background-image: url(/Imagens/Fundo_inicial.png);
+    background-image: url(Fundo_inicial.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -159,7 +159,7 @@ footer svg{
 }
 @media only screen and (max-width: 600px) {
     #topo{
-        background-image: url(/Imagens/fundo_inicial\ celular.png);
+        background-image: url(fundo_inicial\ celular.png);
         background-repeat: no-repeat;
     }
     nav li {
