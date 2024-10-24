@@ -9,7 +9,7 @@ body{
     background-size: cover;
 }
 main{
-    background-image: url(/Imagens/fundo02.png);
+    background-image: url(fundo02.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -5%;
@@ -151,7 +151,7 @@ footer svg{
 }
 @media only screen and (max-width: 600px) {
     #topo{
-        background-image: url(/Imagens/fundo02\ celular.png);
+        background-image: url(fundo02\ celular.png);
         background-repeat: no-repeat;
     }
     main{
