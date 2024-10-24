@@ -49,6 +49,14 @@ main h1{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.delivery{
+    background-image: url(Site\ delivery.png);
+    background-size: contain;
+    background-color: #926a6a;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 #project-name{
     height: 20vh;
     width: 55%;
