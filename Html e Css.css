@@ -196,18 +196,24 @@ footer svg{
     #project-name h1{
         font-size: 100%;
     }
-    
+    footer{
+        height: 80vh;
+    }
+
     #footer-projects{
         height: 30vh;
-        width: 25%;
+        width: 32%;
     }
     #footer-projects a{
-          height: 12vh;
-        width: 200%;
+          height: 17vh;
+        width: 170%;
         top: 50%;
     }
     #footer-end{
-        width:60vh;
+        width:60%;
+        display: flex;
+        font-size: 70%;
+        flex-direction: row;
     }
     #footer-end-info a{
         font-size: 70%;
@@ -219,10 +225,15 @@ footer svg{
     }
     footer svg{
         fill: #1E1E1E;
-        width: 46%;
-        margin-left: 0%;
+        width: 76%;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
     }
     footer h2{
         font-size: 60%;
     }
+    .Inicio{margin-left: 0%;
+    font-size: 200%;}
 }
