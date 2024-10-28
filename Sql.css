@@ -155,12 +155,16 @@ footer svg{
         background-image: url(fundo02\ celular.png);
         background-repeat: no-repeat;
     }
+    body{
+        max-height: 10vh;
+    }
     main{
         height: 60vh;
     }
     main h1{
         font-size: 100%;
     }
+    
     #image{
         width: 30%;
     }
@@ -176,16 +180,24 @@ footer svg{
     #project-name h1{
         font-size: 100%;
     }
-    
+    footer{
+        height: 80vh;
+    }
+
     #footer-projects{
-        height: 30vh;
-        width: 25%;
+        height: 32vh;
+        width: 40%;
     }
     #footer-projects a{
-          height: 12vh;
-        width: 200%;
+          height: 17vh;
+        width: 170%;
         top: 50%;
-        margin-left: 5%;
+    }
+    #footer-end{
+        width:60%;
+        display: flex;
+        font-size: 70%;
+        flex-direction: row;
     }
     #footer-end-info a{
         font-size: 70%;
@@ -197,10 +209,16 @@ footer svg{
     }
     footer svg{
         fill: #1E1E1E;
-        width: 26%;
-        margin-left: 0%;
+        width: 76%;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
     }
     footer h2{
         font-size: 60%;
     }
+    .Inicio{margin-left: 0%;
+    font-size: 200%;}
 }
+
