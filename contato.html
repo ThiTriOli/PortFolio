@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <br></br>
+            <h1>Área de contato</h1>
+        </div>  
+        <div id="formulario">
+            <form action="page2.html" method="POST" onsubmit="return validarFormulario()">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required oninput="mascara_nome()">
+                <br>
+                <label for="nome">Email:</label>
+                <input type="email" id="email" name="email" required oninput="mascara_nome()">
+                <br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(31)99999-9999" required oninput="mascara_telefone()" maxlength="14">
+                <br>
+                <label for="endereco">Pedido:</label>
+                <input type="text" id="endereco" name="endereco" required oninput="mascara_endereco()">
+                <br>
+                <div id="btns">
+                <button type="submit" id="btnEnviar" class="enviar">Enviar</button>
+                <div class="enviar" id="voltar">
+                    <h1><a  id="btnEnviar" href="index.html">voltar</a></h1>
+                   </div>
+                </div>
+            </form>
+            </form>
+        </div>
+       
+    </header>
+</body>
+<script src="index.js"></script>
+</html>

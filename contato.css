@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    font-family: "Instrument Sans", sans-serif;
+    overflow-y: hidden;
+}
+header{
+    background-image: url(Fundo\ contato.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0%;
+}
+.titulo{
+    text-align: center;
+}
+header h1{
+    margin-top: 0%;
+    font-size: 300%;
+    height: 1vh;
+    color: #FFFFFF;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+header li{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    font-size: 150%;
+}
+#forms{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 30vh;
+    height: 10vh;
+}
+form input{
+    width: 100%;
+    background-color: #D9D9D9;
+    border: solid 1px;
+    height: 5vh;
+    outline: none;
+}
+main{
+    background-color: #FFFFFF;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.enviar{
+    margin-top: 10%;
+    width: 40%;
+    height: 5vh;
+    border: solid 1px;
+    text-align: center;
+    display: flex;
+    color: #92B18F;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C372B;
+}
+.enviar h1{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+.enviar a{
+    text-decoration: none;
+    color: #92B18F;
+}
+#voltar{
+    height: 4.7vh;
+}
+@media only screen and (max-width: 600px) {
+    header{
+        background-image: none;
+        background-color: #70876E;
+    }
+    header h1{
+        font-size: 200%;
+    }
+    #forms{
+        width: 20vh;
+    }
+    #enviar{
+        margin-top: 50%;
+    }
+}
