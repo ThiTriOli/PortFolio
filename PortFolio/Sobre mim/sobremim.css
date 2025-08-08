@@ -1,0 +1,146 @@
+body{
+    background-color: #F2F2F2;
+    margin: 0%;
+    font-family: "Instrument Sans", sans-serif;
+    overflow-x: hidden;
+}
+#main{
+    
+    display: flex;
+    flex-direction: row;
+}
+main div{
+    height: 100vh;
+    width: 70%;
+}
+#main-esquerda{
+    text-align: center;
+    height: 130vh;
+    width: 30%;
+    background-color: #70876E;
+}
+#main-esquerda div{
+    height: 12vh;
+    margin-left: 15%;
+}
+.inicio a{
+    padding-top: 10%;
+    color: #1E1E1E;
+    height: 5vh;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 200%;
+    text-align: center;
+}
+
+.quem_sou_eu{
+   color: #FFFFFF;
+    font-weight: 800;
+    font-size: 200%;
+}
+#main-direita{
+    background-image: url(Fundo.png);
+    background-size: contain;
+    background-position:right ;
+    background-repeat: no-repeat;
+}
+#main-container{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+#main-div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+width: 50%;
+height: 15vh;
+}
+#main-photo{margin-top: 20%;
+    margin-left: 100PX;
+    border-radius: 500px;
+    width: 40%;
+    height: 130%;
+    border: solid 10px #5B786D;
+   
+}
+main h1{
+    font-size: 350%;
+    font-weight: 400;
+    color: #70876E;
+}
+main h2{
+    font-size: 300%;
+    color: #5B786D;
+}
+#footer-end{
+    display: inline-block;
+    font-size: 150%;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 23%;
+    color: #1E1E1E;
+}
+#footer-end svg{
+    fill: #1E1E1E;
+    margin-top: 85%;
+    width: 10%;
+    margin-left: 5%;
+}
+.email{
+    color: #1E1E1E;
+    margin-left: 50%;
+    margin-top: 40%;
+    height: 1vh;
+    font-weight: 800;
+    font-size: 150%;
+}
+    @media only screen and (max-width: 600px) {
+        body{
+            overflow-y: hidden;
+        }
+    .inicio a{
+        height: 5vh;
+        font-weight: 800;
+        font-size: 100%;
+    }
+        #main-direita{
+            background-image: none;
+            width: 40%;
+        }
+        #main-esquerda{
+            height: 164vh;
+            width: 60%;
+        }
+        main h1{
+            font-size: 150%;
+        }
+        
+        main h2{
+            font-size: 150%;
+        }
+    
+        .quem_sou_eu{
+            font-size: 100%;
+        }
+        
+        #main-photo{
+            margin-top: 100%;
+             margin-left: -5%;
+             width: 180%;
+             height: 100%;
+         }
+         
+        #footer-end svg{
+            margin-top: 150%;
+            width: 10%;
+        }
+                
+        .email{
+            margin-left: -10%;
+            margin-top: 340%;
+            height: 1vh;
+            font-weight: 800;
+            font-size: 70%;
+        }
+    }

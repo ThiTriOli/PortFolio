@@ -2,15 +2,25 @@ name: Deploy Static Site
 on:
   push:
     branches: [main]
+permissions:
+  pages: write
+  id-token: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: false  # 🔥 Isso mata o erro dos submodules!
-      - uses: actions/configure-pages@v3
-      - uses: actions/upload-pages-artifact@v2
+          submodules: false # Isso previne o erro de submodules
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4 # Versão atualizada
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3 # Versão nova!
         with:
           path: './'
-      - uses: actions/deploy-pages@v2
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4 # Versão atualizada

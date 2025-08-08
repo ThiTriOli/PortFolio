@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    font-family: "Instrument Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+body.light-mode {
+    background-color: #F2F2F2;
+    color: #1E1E1E;
+}
+
+body.light-mode #topo {
+    background-image: url(/PortFolio/images/Fundo_inicial.png);
+}
+
+body.light-mode nav a {
+    color: #5B786D;
+}
+
+body.light-mode main h1 {
+    color: #70876E;
+}
+
+body.light-mode main h2 {
+    color: #5B786D;
+}
+
+body.light-mode #projetos-section,
+body.light-mode footer {
+    background-color: #70876E;
+    color: #1E1E1E;
+}
+
+body.light-mode footer svg {
+    fill: #1E1E1E;
+}
+
+body.light-mode .footer-project-card a {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+body.light-mode .footer-project-card:hover a {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body.light-mode .project-name {
+    color: #1E1E1E;
+}
+
+body.light-mode #main-photo {
+    border-color: #5B786D;
+}
+
+body.dark-mode {
+    background-color: #1E1E1E;
+    color: #F2F2F2;
+}
+
+body.dark-mode #topo {
+    background-image: url(/PortFolio/images/fundo_escuro.png);
+}
+
+body.dark-mode nav a {
+    color: #A9B8B5;
+}
+
+body.dark-mode main h1 {
+    color: #B8C7C4;
+}
+
+body.dark-mode main h2 {
+    color: #A9B8B5;
+}
+
+body.dark-mode #projetos-section,
+body.dark-mode footer {
+    background-color: #2D2D2D;
+    color: #F2F2F2;
+}
+
+body.dark-mode footer svg {
+    fill: #F2F2F2;
+}
+
+body.dark-mode .footer-project-card a {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .footer-project-card:hover a {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .project-name {
+    color: #F2F2F2; 
+}
+
+body.dark-mode #main-photo {
+    border-color: #A9B8B5;
+}
+
+#topo {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    height: 12vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    font-weight: 800;
+    font-size: 200%;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#theme-toggle {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent; 
+}
+
+#theme-toggle svg {
+    width: 40px;
+    height: 40px;
+    transition: opacity 0.5s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    height: 70vh;
+    width: 100%;
+}
+
+#main-container {
+    padding-left: 25%;
+    padding-top: 7%;
+}
+
+#main-div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    flex-direction: row;
+    width: 40%;
+    height: 15vh;
+}
+
+#main-photo {
+    margin-left: 100px;
+    border-radius: 500px;
+    width: 40%;
+    height: 160%;
+    border: solid 10px;
+    transition: border-color 0.5s ease;
+    margin-bottom: 2.5%;
+    background-image: url(/PortFolio/images/me.jpg); /* Adicionado: Imagem de perfil */
+    background-size: cover;
+    background-position: center;
+}
+
+main h1 {
+    font-size: 350%;
+    font-weight: 400;
+}
+
+main h2 {
+    font-size: 300%;
+}
+
+#projetos-section {
+    min-height: 60vh;
+    width: 99.9%;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#footer-nav {
+    width: 100%;
+    height: 22vh;
+}
+
+#footer-tytle {
+    padding-top: 2.5%;
+    font-weight: 800;
+    font-size: 300%;
+    text-align: center;
+}
+
+#footer-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.footer-project-card {
+    height: 30vh;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+}
+
+.footer-project-card a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 23vh;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.footer-project-card a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.footer-project-card svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.footer-project-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.project-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 5%;
+    box-sizing: border-box;
+}
+
+#footer-end {
+    font-size: 150%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#footer-end a svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    transition: fill 0.3s ease;
+}
+
+#footer-end a:hover svg {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    #topo {
+        background-image: url(/PortFolio/images/fundo_inicial\ celular.png);
+        background-repeat: no-repeat;
+    }
+
+    nav li {
+        font-size: 100%;
+        margin-left: 7%;
+    }
+
+    main {
+        height: 40vh;
+        width: 100%;
+    }
+
+    main h1 {
+        font-size: 200%;
+    }
+
+    main h2 {
+        font-size: 200%;
+    }
+
+    #main-container {
+        padding-left: 5%;
+        padding-top: 7%;
+    }
+
+    #main-div {
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    #main-photo {
+        margin-left: 40%;
+        width: 70%;
+        height: 80%;
+    }
+
+    footer {
+        height: auto;
+        width: 99.9%;
+    }
+
+    #footer-tytle {
+        font-size: 200%;
+    }
+
+    #footer-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-project-card {
+        width: 80%;
+        height: 20vh;
+    }
+
+    .footer-project-card a {
+        height: 15vh;
+    }
+
+    #footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-end {
+        font-size: 100%;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+
+    #footer-end a svg {
+        margin-left: 10px;
+    }
+}
